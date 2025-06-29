@@ -6,7 +6,7 @@ import { HistoryList } from './HistoryList';
 
 import '@testing-library/jest-dom';
 
-// Приводим useHistoryStore к типу мок-функции Vitest
+
 type VitestMock = ReturnType<typeof vi.fn>;
 const useHistoryStoreMock = useHistoryStore as unknown as VitestMock;
 
